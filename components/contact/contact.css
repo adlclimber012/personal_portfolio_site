@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+.myNavbar {
+    margin-bottom: -113px;
+    padding-top: 15px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 1.2em;
+    z-index: 2;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    text-decoration: underline;
+    border: 2px solid transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: border-top 0.06s ease-in-out, border-right 0.06s ease-in-out 0.06s, border-bottom 0.06s ease-in-out 0.12s, border-left 0.06s ease-in-out 0.18s;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: orangered;
+    border-top: 2px solid orangered;
+    border-right: 2px solid orangered;
+    border-bottom: 2px solid orangered;
+    border-left: 2px solid orangered;
+}
+
+.quote{
+/*    text-transform: uppercase;*/
+    font-family: "Courier New", Monaco, monospace;
+    color: white;
+    font-size: 3em;
+    display: inline-block;
+    margin-top: 40vh;
+    
+}
+
+.transparent {
+    color: transparent;
+}
+
+.subName {
+    font-family: "Courier New", Monaco, monospace;
+    color: white;
+    font-size: 2em;
+    margin-top: 15px;
+    display: inline-block;
+    border-bottom: 3px solid white;
+}
+
+.module {
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    background-size: cover;
+    height: 100vh;
+}
+
+.darken {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(IMG_3707.jpg);
+}
