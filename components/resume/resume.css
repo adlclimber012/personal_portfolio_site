@@ -24,11 +24,11 @@
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: orangered;
-    border-top: 2px solid orangered;
-    border-right: 2px solid orangered;
-    border-bottom: 2px solid orangered;
-    border-left: 2px solid orangered;
+    color: mediumpurple;
+    border-top: 2px solid mediumpurple;
+    border-right: 2px solid mediumpurple;
+    border-bottom: 2px solid mediumpurple;
+    border-left: 2px solid mediumpurple;
 }
 
 .quote{
@@ -63,5 +63,5 @@
 }
 
 .darken {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(IMG_3707.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(bookPhoto.jpg);
 }
