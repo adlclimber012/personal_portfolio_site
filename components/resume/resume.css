@@ -65,3 +65,32 @@
 .darken {
     background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(bookPhoto.jpg);
 }
+
+.BCCompanyLogo {
+    height: 250px;
+    width: 250px;
+}
+
+.MCCompanyLogo {
+    height: 220px;
+    width: 250px;
+}
+
+.WCCompanyLogo {
+    height: 170px;
+    width: 250px;
+    margin-top: 75px;
+    filter: blur(100%);
+}
+
+.greyScale {
+    filter: grayscale(100%);
+}
+
+.greyScale:hover {
+    filter: grayscale(0);
+}
+
+.separator {
+    border-bottom: 2px solid black;
+}
