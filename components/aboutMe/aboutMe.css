@@ -2,8 +2,7 @@
     box-sizing: border-box;
 }
 
-.myNavbar {
-    margin-bottom: -113px;
+.navbar-right {
     padding-top: 15px;
 }
 
@@ -31,14 +30,25 @@
     border-left: 2px solid orangered;
 }
 
+.logoImage {
+    height: 120px;
+    width: 120px;
+}
+
+.my-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 85%;
+}
+
 .quote{
-/*    text-transform: uppercase;*/
     font-family: "Courier New", Monaco, monospace;
     color: white;
     font-size: 3em;
-    display: inline-block;
-    margin-top: 40vh;
-    
+    display: block; 
+    width: 100%;
 }
 
 .transparent {
@@ -50,8 +60,10 @@
     color: white;
     font-size: 2em;
     margin-top: 15px;
+/*
     display: inline-block;
     border-bottom: 3px solid white;
+*/
 }
 
 .module {
