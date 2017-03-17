@@ -40,7 +40,7 @@
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
-    width: 85%;
+    width: 100%;
 }
 
 .quote{

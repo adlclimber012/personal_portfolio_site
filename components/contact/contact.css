@@ -2,8 +2,7 @@
     box-sizing: border-box;
 }
 
-.myNavbar {
-    margin-bottom: -113px;
+.navbar-right {
     padding-top: 15px;
 }
 
@@ -24,21 +23,32 @@
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: orangered;
-    border-top: 2px solid orangered;
-    border-right: 2px solid orangered;
-    border-bottom: 2px solid orangered;
-    border-left: 2px solid orangered;
+    color: deeppink;
+    border-top: 2px solid deeppink;
+    border-right: 2px solid deeppink;
+    border-bottom: 2px solid deeppink;
+    border-left: 2px solid deeppink;
+}
+
+.logoImage {
+    height: 120px;
+    width: 120px;
+}
+
+.my-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
 }
 
 .quote{
-/*    text-transform: uppercase;*/
     font-family: "Courier New", Monaco, monospace;
     color: white;
     font-size: 3em;
-    display: inline-block;
-    margin-top: 40vh;
-    
+    display: block;
+    widows: 100%;
 }
 
 .transparent {
@@ -50,8 +60,6 @@
     color: white;
     font-size: 2em;
     margin-top: 15px;
-    display: inline-block;
-    border-bottom: 3px solid white;
 }
 
 .module {
@@ -60,8 +68,9 @@
     top: 0;
     background-size: cover;
     height: 100vh;
+    position: relative;
 }
 
 .darken {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(IMG_3707.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(payphones.jpeg);
 }
