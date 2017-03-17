@@ -4,7 +4,7 @@
 
 .myNavbar {
     margin-bottom: -113px;
-    padding-top: 15px;
+/*    padding-top: 15px;*/
 }
 
 .navbar-default {
@@ -31,9 +31,13 @@
     border-left: 2px solid aquamarine;
 }
 
+.navbar-brand {
+    float: none;
+}
+
 .logoImage {
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
 }
 
 .name{
