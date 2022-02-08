@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar-right {
+    padding-top: 15px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 1.2em;
+    z-index: 2;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    text-decoration: underline;
+    border: 2px solid transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: border-top 0.06s ease-in-out, border-right 0.06s ease-in-out 0.06s, border-bottom 0.06s ease-in-out 0.12s, border-left 0.06s ease-in-out 0.18s;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: rgb(0, 92, 230);
+    border-top: 2px solid rgb(0, 92, 230);
+    border-right: 2px solid rgb(0, 92, 230);
+    border-bottom: 2px solid rgb(0, 92, 230);
+    border-left: 2px solid rgb(0, 92, 230);
+}
+
+.logoImage {
+    height: 120px;
+    width: 120px;
+}
+
+.my-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+}
+
+.quote{
+    font-family: "Courier New", Monaco, monospace;
+    color: white;
+    font-size: 3em;
+    display: block;
+    widows: 100%;
+}
+
+.transparent {
+    color: transparent;
+}
+
+.subName {
+    font-family: "Courier New", Monaco, monospace;
+    color: white;
+    font-size: 2em;
+    margin-top: 15px;
+}
+
+.module {
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.darken {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(payphones.jpeg);
+}
