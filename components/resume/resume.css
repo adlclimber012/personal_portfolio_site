@@ -92,6 +92,11 @@
     filter: blur(100%);
 }
 
+.curoLogo {
+    height: 250px;
+    width: 250px;
+}
+
 .greyScale {
     filter: grayscale(100%);
 }
